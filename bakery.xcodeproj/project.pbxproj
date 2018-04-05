@@ -13,6 +13,11 @@
 		BEEBAF9C207640B5005CB238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF9B207640B5005CB238 /* Assets.xcassets */; };
 		BEEBAF9F207640B5005CB238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF9D207640B5005CB238 /* LaunchScreen.storyboard */; };
 		BEEBAFA2207640B5005CB238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFA1207640B5005CB238 /* main.m */; };
+		BEEBAFAA207643BA005CB238 /* Pao.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFA9207643BA005CB238 /* Pao.m */; };
+		BEEBAFAD207647DC005CB238 /* Produto.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFAC207647DC005CB238 /* Produto.m */; };
+		BEEBAFB02076498C005CB238 /* Biscoito.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFAF2076498C005CB238 /* Biscoito.m */; };
+		BEEBAFB320764A04005CB238 /* Rosquinha.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFB220764A04005CB238 /* Rosquinha.m */; };
+		BEEBAFB620764A63005CB238 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFB520764A63005CB238 /* Pizza.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		BEEBAF9E207640B5005CB238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEEBAFA0207640B5005CB238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEEBAFA1207640B5005CB238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEEBAFA8207643BA005CB238 /* Pao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pao.h; sourceTree = "<group>"; };
+		BEEBAFA9207643BA005CB238 /* Pao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pao.m; sourceTree = "<group>"; };
+		BEEBAFAB207647DC005CB238 /* Produto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Produto.h; sourceTree = "<group>"; };
+		BEEBAFAC207647DC005CB238 /* Produto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Produto.m; sourceTree = "<group>"; };
+		BEEBAFAE2076498C005CB238 /* Biscoito.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Biscoito.h; sourceTree = "<group>"; };
+		BEEBAFAF2076498C005CB238 /* Biscoito.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Biscoito.m; sourceTree = "<group>"; };
+		BEEBAFB120764A04005CB238 /* Rosquinha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rosquinha.h; sourceTree = "<group>"; };
+		BEEBAFB220764A04005CB238 /* Rosquinha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rosquinha.m; sourceTree = "<group>"; };
+		BEEBAFB420764A63005CB238 /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		BEEBAFB520764A63005CB238 /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +82,16 @@
 				BEEBAF9D207640B5005CB238 /* LaunchScreen.storyboard */,
 				BEEBAFA0207640B5005CB238 /* Info.plist */,
 				BEEBAFA1207640B5005CB238 /* main.m */,
+				BEEBAFA8207643BA005CB238 /* Pao.h */,
+				BEEBAFA9207643BA005CB238 /* Pao.m */,
+				BEEBAFAE2076498C005CB238 /* Biscoito.h */,
+				BEEBAFAF2076498C005CB238 /* Biscoito.m */,
+				BEEBAFB120764A04005CB238 /* Rosquinha.h */,
+				BEEBAFB220764A04005CB238 /* Rosquinha.m */,
+				BEEBAFB420764A63005CB238 /* Pizza.h */,
+				BEEBAFB520764A63005CB238 /* Pizza.m */,
+				BEEBAFAB207647DC005CB238 /* Produto.h */,
+				BEEBAFAC207647DC005CB238 /* Produto.m */,
 			);
 			path = bakery;
 			sourceTree = "<group>";
@@ -142,9 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEBAFB620764A63005CB238 /* Pizza.m in Sources */,
+				BEEBAFAA207643BA005CB238 /* Pao.m in Sources */,
 				BEEBAF97207640B5005CB238 /* ViewController.m in Sources */,
+				BEEBAFB320764A04005CB238 /* Rosquinha.m in Sources */,
 				BEEBAFA2207640B5005CB238 /* main.m in Sources */,
+				BEEBAFB02076498C005CB238 /* Biscoito.m in Sources */,
 				BEEBAF94207640B5005CB238 /* AppDelegate.m in Sources */,
+				BEEBAFAD207647DC005CB238 /* Produto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
