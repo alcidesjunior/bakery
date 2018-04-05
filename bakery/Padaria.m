@@ -7,11 +7,7 @@
 //
 
 #import "Padaria.h"
-#import "Pao.h"
-#import "Biscoito.h"
-#import "Rosquinha.h"
-#import "Pizza.h"
-#import "Slot.h"
+
 @implementation Padaria
-    
+
 @end

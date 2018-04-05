@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Pao.h"
+#import "Biscoito.h"
+#import "Rosquinha.h"
+#import "Pizza.h"
+#import "Slot.h"
 @interface Padaria : NSObject
+    @property NSArray<Slot*> *estoque;
 
 @end

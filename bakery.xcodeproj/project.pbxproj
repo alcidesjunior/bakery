@@ -19,7 +19,6 @@
 		BEEBAFB320764A04005CB238 /* Rosquinha.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFB220764A04005CB238 /* Rosquinha.m */; };
 		BEEBAFB620764A63005CB238 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFB520764A63005CB238 /* Pizza.m */; };
 		BEEBAFB9207651F4005CB238 /* Slot.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFB8207651F4005CB238 /* Slot.m */; };
-		BEEBAFBC207652EB005CB238 /* Estoque.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFBB207652EB005CB238 /* Estoque.m */; };
 		BEEBAFBF207654C6005CB238 /* Padaria.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFBE207654C6005CB238 /* Padaria.m */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +45,6 @@
 		BEEBAFB520764A63005CB238 /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
 		BEEBAFB7207651F4005CB238 /* Slot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slot.h; sourceTree = "<group>"; };
 		BEEBAFB8207651F4005CB238 /* Slot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slot.m; sourceTree = "<group>"; };
-		BEEBAFBA207652EB005CB238 /* Estoque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Estoque.h; sourceTree = "<group>"; };
-		BEEBAFBB207652EB005CB238 /* Estoque.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Estoque.m; sourceTree = "<group>"; };
 		BEEBAFBD207654C6005CB238 /* Padaria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Padaria.h; sourceTree = "<group>"; };
 		BEEBAFBE207654C6005CB238 /* Padaria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Padaria.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,8 +98,6 @@
 				BEEBAFB520764A63005CB238 /* Pizza.m */,
 				BEEBAFB7207651F4005CB238 /* Slot.h */,
 				BEEBAFB8207651F4005CB238 /* Slot.m */,
-				BEEBAFBA207652EB005CB238 /* Estoque.h */,
-				BEEBAFBB207652EB005CB238 /* Estoque.m */,
 				BEEBAFBD207654C6005CB238 /* Padaria.h */,
 				BEEBAFBE207654C6005CB238 /* Padaria.m */,
 				BEEBAFAB207647DC005CB238 /* Produto.h */,
@@ -189,7 +184,6 @@
 				BEEBAFBF207654C6005CB238 /* Padaria.m in Sources */,
 				BEEBAFB320764A04005CB238 /* Rosquinha.m in Sources */,
 				BEEBAFA2207640B5005CB238 /* main.m in Sources */,
-				BEEBAFBC207652EB005CB238 /* Estoque.m in Sources */,
 				BEEBAFB02076498C005CB238 /* Biscoito.m in Sources */,
 				BEEBAF94207640B5005CB238 /* AppDelegate.m in Sources */,
 				BEEBAFAD207647DC005CB238 /* Produto.m in Sources */,
