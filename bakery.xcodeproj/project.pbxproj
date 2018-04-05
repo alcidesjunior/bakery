@@ -20,6 +20,7 @@
 		BEEBAFB620764A63005CB238 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFB520764A63005CB238 /* Pizza.m */; };
 		BEEBAFB9207651F4005CB238 /* Slot.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFB8207651F4005CB238 /* Slot.m */; };
 		BEEBAFBF207654C6005CB238 /* Padaria.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFBE207654C6005CB238 /* Padaria.m */; };
+		BEEBAFD220769BC1005CB238 /* InicioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFD120769BC1005CB238 /* InicioViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		BEEBAFB8207651F4005CB238 /* Slot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slot.m; sourceTree = "<group>"; };
 		BEEBAFBD207654C6005CB238 /* Padaria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Padaria.h; sourceTree = "<group>"; };
 		BEEBAFBE207654C6005CB238 /* Padaria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Padaria.m; sourceTree = "<group>"; };
+		BEEBAFD020769BC1005CB238 /* InicioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InicioViewController.h; sourceTree = "<group>"; };
+		BEEBAFD120769BC1005CB238 /* InicioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InicioViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				BEEBAF95207640B5005CB238 /* ViewController.h */,
 				BEEBAF96207640B5005CB238 /* ViewController.m */,
 				BEEBAF98207640B5005CB238 /* Main.storyboard */,
+				BEEBAFD020769BC1005CB238 /* InicioViewController.h */,
+				BEEBAFD120769BC1005CB238 /* InicioViewController.m */,
 				BEEBAF9B207640B5005CB238 /* Assets.xcassets */,
 				BEEBAF9D207640B5005CB238 /* LaunchScreen.storyboard */,
 				BEEBAFA0207640B5005CB238 /* Info.plist */,
@@ -178,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEBAFB9207651F4005CB238 /* Slot.m in Sources */,
+				BEEBAFD220769BC1005CB238 /* InicioViewController.m in Sources */,
 				BEEBAFB620764A63005CB238 /* Pizza.m in Sources */,
 				BEEBAFAA207643BA005CB238 /* Pao.m in Sources */,
 				BEEBAF97207640B5005CB238 /* ViewController.m in Sources */,
