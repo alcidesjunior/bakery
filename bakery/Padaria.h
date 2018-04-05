@@ -7,12 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Produto.h"
 #import "Pao.h"
 #import "Biscoito.h"
 #import "Rosquinha.h"
 #import "Pizza.h"
 #import "Slot.h"
 @interface Padaria : NSObject
-    @property NSArray<Slot*> *estoque;
+    @property NSMutableArray<Slot*> *slots;
+    @property (nonatomic) int qtdSlots;
+    @property NSMutableArray<Produto*> *vitrine;
 
+    -(void)addSlot:(int)qtd;
+    -(void)comprarMaterial: (NSMutableArray *)material;
+    -(void)addProduto: (Produto *) produto;//envia para a vitrine
+    -(void)venderProdutos;//esvazia lista de estoque
 @end
