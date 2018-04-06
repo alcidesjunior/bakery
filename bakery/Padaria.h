@@ -13,6 +13,7 @@
 #import "Rosquinha.h"
 #import "Pizza.h"
 #import "Slot.h"
+
 @interface Padaria : NSObject
     @property NSMutableArray<Slot*> *slots;
     @property (nonatomic) int qtdSlots;

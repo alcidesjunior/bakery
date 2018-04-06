@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BEEBAF94207640B5005CB238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAF93207640B5005CB238 /* AppDelegate.m */; };
-		BEEBAF97207640B5005CB238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAF96207640B5005CB238 /* ViewController.m */; };
 		BEEBAF9A207640B5005CB238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF98207640B5005CB238 /* Main.storyboard */; };
 		BEEBAF9C207640B5005CB238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF9B207640B5005CB238 /* Assets.xcassets */; };
 		BEEBAF9F207640B5005CB238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF9D207640B5005CB238 /* LaunchScreen.storyboard */; };
@@ -21,14 +20,13 @@
 		BEEBAFB9207651F4005CB238 /* Slot.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFB8207651F4005CB238 /* Slot.m */; };
 		BEEBAFBF207654C6005CB238 /* Padaria.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFBE207654C6005CB238 /* Padaria.m */; };
 		BEEBAFD220769BC1005CB238 /* InicioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAFD120769BC1005CB238 /* InicioViewController.m */; };
+		BEFBB9BF20779A60005A0B12 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFBB9BE20779A60005A0B12 /* TimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEEBAF8F207640B5005CB238 /* bakery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bakery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEBAF92207640B5005CB238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEEBAF93207640B5005CB238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BEEBAF95207640B5005CB238 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEEBAF96207640B5005CB238 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BEEBAF99207640B5005CB238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEEBAF9B207640B5005CB238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEEBAF9E207640B5005CB238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +48,8 @@
 		BEEBAFBE207654C6005CB238 /* Padaria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Padaria.m; sourceTree = "<group>"; };
 		BEEBAFD020769BC1005CB238 /* InicioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InicioViewController.h; sourceTree = "<group>"; };
 		BEEBAFD120769BC1005CB238 /* InicioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InicioViewController.m; sourceTree = "<group>"; };
+		BEFBB9BD20779A60005A0B12 /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		BEFBB9BE20779A60005A0B12 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 			children = (
 				BEEBAF92207640B5005CB238 /* AppDelegate.h */,
 				BEEBAF93207640B5005CB238 /* AppDelegate.m */,
-				BEEBAF95207640B5005CB238 /* ViewController.h */,
-				BEEBAF96207640B5005CB238 /* ViewController.m */,
 				BEEBAF98207640B5005CB238 /* Main.storyboard */,
+				BEFBB9BD20779A60005A0B12 /* TimerViewController.h */,
+				BEFBB9BE20779A60005A0B12 /* TimerViewController.m */,
 				BEEBAFD020769BC1005CB238 /* InicioViewController.h */,
 				BEEBAFD120769BC1005CB238 /* InicioViewController.m */,
 				BEEBAF9B207640B5005CB238 /* Assets.xcassets */,
@@ -182,11 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFBB9BF20779A60005A0B12 /* TimerViewController.m in Sources */,
 				BEEBAFB9207651F4005CB238 /* Slot.m in Sources */,
 				BEEBAFD220769BC1005CB238 /* InicioViewController.m in Sources */,
 				BEEBAFB620764A63005CB238 /* Pizza.m in Sources */,
 				BEEBAFAA207643BA005CB238 /* Pao.m in Sources */,
-				BEEBAF97207640B5005CB238 /* ViewController.m in Sources */,
 				BEEBAFBF207654C6005CB238 /* Padaria.m in Sources */,
 				BEEBAFB320764A04005CB238 /* Rosquinha.m in Sources */,
 				BEEBAFA2207640B5005CB238 /* main.m in Sources */,
