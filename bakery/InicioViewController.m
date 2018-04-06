@@ -9,6 +9,7 @@
 #import "InicioViewController.h"
 #import "TimerViewController.h"
 #import "Padaria.h"
+#import "SlotsViewController.h"
 
 @interface InicioViewController ()
 
@@ -51,6 +52,10 @@
     if ([segue.identifier isEqualToString:@"modalTimer"]) {
         TimerViewController *controller = segue.destinationViewController;
         controller.currentSec = _sec;
+    }
+    if([segue.identifier isEqualToString:@"telaSlots"]){
+        SlotsViewController *slotsCtrl = segue.destinationViewController;
+        slotsCtrl.padaria = _padaria;
     }
 }
 

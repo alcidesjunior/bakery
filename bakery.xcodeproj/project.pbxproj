@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BED282512077A48E009FA061 /* SlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED282502077A48E009FA061 /* SlotsViewController.m */; };
 		BEEBAF94207640B5005CB238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAF93207640B5005CB238 /* AppDelegate.m */; };
 		BEEBAF9A207640B5005CB238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF98207640B5005CB238 /* Main.storyboard */; };
 		BEEBAF9C207640B5005CB238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF9B207640B5005CB238 /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BED2824F2077A48E009FA061 /* SlotsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlotsViewController.h; sourceTree = "<group>"; };
+		BED282502077A48E009FA061 /* SlotsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlotsViewController.m; sourceTree = "<group>"; };
 		BEEBAF8F207640B5005CB238 /* bakery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bakery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEBAF92207640B5005CB238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEEBAF93207640B5005CB238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				BEEBAF92207640B5005CB238 /* AppDelegate.h */,
 				BEEBAF93207640B5005CB238 /* AppDelegate.m */,
 				BEEBAF98207640B5005CB238 /* Main.storyboard */,
+				BED2824F2077A48E009FA061 /* SlotsViewController.h */,
+				BED282502077A48E009FA061 /* SlotsViewController.m */,
 				BEFBB9BD20779A60005A0B12 /* TimerViewController.h */,
 				BEFBB9BE20779A60005A0B12 /* TimerViewController.m */,
 				BEEBAFD020769BC1005CB238 /* InicioViewController.h */,
@@ -190,6 +195,7 @@
 				BEEBAFBF207654C6005CB238 /* Padaria.m in Sources */,
 				BEEBAFB320764A04005CB238 /* Rosquinha.m in Sources */,
 				BEEBAFA2207640B5005CB238 /* main.m in Sources */,
+				BED282512077A48E009FA061 /* SlotsViewController.m in Sources */,
 				BEEBAFB02076498C005CB238 /* Biscoito.m in Sources */,
 				BEEBAF94207640B5005CB238 /* AppDelegate.m in Sources */,
 				BEEBAFAD207647DC005CB238 /* Produto.m in Sources */,
@@ -327,7 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C2BTWK9QR9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = bakery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.alcidesjunior.bakery;
@@ -341,7 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C2BTWK9QR9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = bakery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.alcidesjunior.bakery;
