@@ -8,6 +8,7 @@
 
 #import "InicioViewController.h"
 #import "Padaria.h"
+#import "SlotsViewController.h"
 
 @interface InicioViewController ()
 
@@ -57,6 +58,10 @@
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"modalTimer"]) {
         
+    }
+    if([segue.identifier isEqualToString:@"telaSlots"]){
+        SlotsViewController *slotsCtrl = segue.destinationViewController;
+        slotsCtrl.padaria = _padaria;
     }
 }
 
