@@ -9,8 +9,12 @@
 #import "Pizza.h"
 
 @implementation Pizza
--(id)init{
+- (instancetype)init
+{
     self = [super init];
+    if (self) {
+        self.tempo = 180;
+    }
     return self;
 }
 @end

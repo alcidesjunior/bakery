@@ -11,33 +11,24 @@
 @interface TimerViewController ()
     @property (weak, nonatomic) IBOutlet UILabel *progress;
     @property NSTimer *timer;
-    @property (weak, nonatomic) IBOutlet UIButton *btnStart;
-    @property int currentMin;
-    @property int currentSec;
-
 @end
 
 @implementation TimerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _progress.textColor = [UIColor redColor];
-    //[_progress setText:@"Time -> 00:"];
-    _progress.backgroundColor = [UIColor clearColor];
-    [self.view addSubview:_progress];
-    _currentMin = 0;
-    _currentSec = 30;
+    NSLog(@"%d", _currentSec);
+//    _progress.textColor = [UIColor redColor];
+    [_progress setText:[NSString stringWithFormat:@"%02d", _currentSec]];
+//    _progress.backgroundColor = [UIColor clearColor];
+//    [self.view addSubview:_progress];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerFired) userInfo:nil repeats:YES];
 
 }
--(IBAction)cronometro:(UIButton*)param{
-    _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerFired) userInfo:nil repeats:YES];
-}
 -(void)timerFired{
-    //NSLog(@"Caiu aqui");
-    
+  
     if (_currentSec >= 0) {
-        _progress.text = [NSString stringWithFormat:@"Time: %d : %02d",_currentMin,_currentSec];
-        NSLog(@"%d",_currentMin);
+        _progress.text = [NSString stringWithFormat:@"%02d", _currentSec];
         NSLog(@"%02d",_currentSec);
     }else{
         [_timer invalidate];

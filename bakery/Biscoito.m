@@ -8,8 +8,12 @@
 
 #import "Biscoito.h"
 @implementation Biscoito
--(id)init{
+- (instancetype)init
+{
     self = [super init];
+    if (self) {
+        self.tempo = 60;
+    }
     return self;
 }
 @end

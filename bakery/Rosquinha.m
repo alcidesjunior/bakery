@@ -8,8 +8,12 @@
 
 #import "Rosquinha.h"
 @implementation Rosquinha
--(id)init{
+- (instancetype)init
+{
     self = [super init];
+    if (self) {
+        self.tempo = 100;
+    }
     return self;
 }
 @end

@@ -9,10 +9,14 @@
 #import "Pao.h"
 
 @implementation Pao
--(id)init{
-    self  = [super init];
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.tempo = 80;
+    }
     return self;
 }
-
 @end
 
