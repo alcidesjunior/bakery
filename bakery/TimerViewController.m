@@ -10,31 +10,44 @@
 
 @interface TimerViewController ()
     @property (weak, nonatomic) IBOutlet UILabel *progress;
-    @property NSTimer *timer;
+@property (weak, nonatomic) IBOutlet UIButton *dismiss;
+@property (weak, nonatomic) IBOutlet UILabel *state1;
+@property (weak, nonatomic) IBOutlet UILabel *state2;
+@property (weak, nonatomic) IBOutlet UILabel *state3;
+@property (weak, nonatomic) IBOutlet UILabel *state4;
+@property NSTimer *timer;
 @end
 
 @implementation TimerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%d", _currentSec);
-//    _progress.textColor = [UIColor redColor];
+    _dismiss.enabled = NO;
     [_progress setText:[NSString stringWithFormat:@"%02d", _currentSec]];
-//    _progress.backgroundColor = [UIColor clearColor];
-//    [self.view addSubview:_progress];
     _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerFired) userInfo:nil repeats:YES];
 
 }
 -(void)timerFired{
-  
+    _state1.textColor = [UIColor blackColor];
     if (_currentSec >= 0) {
         _progress.text = [NSString stringWithFormat:@"%02d", _currentSec];
-        NSLog(@"%02d",_currentSec);
+        if (_currentSec < 20) {
+            _state2.textColor = [UIColor blackColor];
+        }
+        if (_currentSec < 10) {
+            _state3.textColor = [UIColor blackColor];
+        }
     }else{
         [_timer invalidate];
+        _state4.textColor = [UIColor blackColor];
+        _dismiss.enabled = YES;
+
     }
     _currentSec -= 1;
     
+}
+- (IBAction)dismissModal:(id)sender {
+    [self dismissViewControllerAnimated:true completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

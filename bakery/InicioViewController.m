@@ -22,12 +22,15 @@
 @property Padaria *padaria;
 @property int sec;
 
+@property (weak, nonatomic) IBOutlet UISwitch *fmSwitch;
+
 @end
 
 @implementation InicioViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [_fmSwitch setOn:NO animated:NO];
     _ingredientes = [NSArray arrayWithObjects:@"ingredientePao",@"ingredienteRosca",@"ingredienteBiscoito",@"ingredientePizza", nil];
 
 }
@@ -42,20 +45,27 @@
     [self performSegueWithIdentifier:@"modalTimer" sender:sender];
 }
 - (IBAction)fazBiscoito:(id)sender {
+    Biscoito *bc =[Biscoito new ];
+    _sec = bc.tempo;
     [self performSegueWithIdentifier:@"modalTimer" sender:sender];
 }
 - (IBAction)fazPizza:(id)sender {
+    Pizza *pz =[Pizza new ];
+    _sec = pz.tempo;
     [self performSegueWithIdentifier:@"modalTimer" sender:sender];
 
 }
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"modalTimer"]) {
         TimerViewController *controller = segue.destinationViewController;
-        controller.currentSec = _sec;
-    }
-    if([segue.identifier isEqualToString:@"telaSlots"]){
-        SlotsViewController *slotsCtrl = segue.destinationViewController;
-        slotsCtrl.padaria = _padaria;
+        
+        if([_fmSwitch isOn]){
+            controller.currentSec = _sec/2;
+
+        }else{
+           controller.currentSec = _sec;
+        }
+        
     }
 }
 
