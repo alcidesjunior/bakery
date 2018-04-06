@@ -23,4 +23,5 @@
     -(void)comprarMaterial: (NSMutableArray *)material;
     -(void)addProduto: (Produto *) produto;//envia para a vitrine
     -(void)venderProdutos;//esvazia lista de estoque
+    +(Padaria *)sharedInstance;
 @end

@@ -12,8 +12,16 @@
 -(id)init{
     if(self = [super init]){
         _qtdSlots = 2;//inicializa a quantidade inicial de slots que eu posso ter
+        
     }
     return self;
+}
++(Padaria *) sharedInstance{
+    static Padaria *sharedInstance;
+    if(sharedInstance == nil){
+        sharedInstance = [[Padaria alloc] init];
+    }
+    return sharedInstance;
 }
 /*
  ESTOQUE/SLOTS = SAO VARIOS SLOTS -> 2

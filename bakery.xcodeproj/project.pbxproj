@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BED282512077A48E009FA061 /* SlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED282502077A48E009FA061 /* SlotsViewController.m */; };
+		BED282542077B3FD009FA061 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = BED282532077B3FD009FA061 /* MySingleton.m */; };
 		BEEBAF94207640B5005CB238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEBAF93207640B5005CB238 /* AppDelegate.m */; };
 		BEEBAF9A207640B5005CB238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF98207640B5005CB238 /* Main.storyboard */; };
 		BEEBAF9C207640B5005CB238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEBAF9B207640B5005CB238 /* Assets.xcassets */; };
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		BED2824F2077A48E009FA061 /* SlotsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlotsViewController.h; sourceTree = "<group>"; };
 		BED282502077A48E009FA061 /* SlotsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlotsViewController.m; sourceTree = "<group>"; };
+		BED282522077B3FD009FA061 /* MySingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		BED282532077B3FD009FA061 /* MySingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
 		BEEBAF8F207640B5005CB238 /* bakery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bakery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEBAF92207640B5005CB238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEEBAF93207640B5005CB238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				BEEBAFBE207654C6005CB238 /* Padaria.m */,
 				BEEBAFAB207647DC005CB238 /* Produto.h */,
 				BEEBAFAC207647DC005CB238 /* Produto.m */,
+				BED282522077B3FD009FA061 /* MySingleton.h */,
+				BED282532077B3FD009FA061 /* MySingleton.m */,
 			);
 			path = bakery;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				BEEBAFB320764A04005CB238 /* Rosquinha.m in Sources */,
 				BEEBAFA2207640B5005CB238 /* main.m in Sources */,
 				BED282512077A48E009FA061 /* SlotsViewController.m in Sources */,
+				BED282542077B3FD009FA061 /* MySingleton.m in Sources */,
 				BEEBAFB02076498C005CB238 /* Biscoito.m in Sources */,
 				BEEBAF94207640B5005CB238 /* AppDelegate.m in Sources */,
 				BEEBAFAD207647DC005CB238 /* Produto.m in Sources */,

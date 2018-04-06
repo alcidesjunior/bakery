@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    _padaria = [Padaria sharedInstance];
+    _slot1.image = [UIImage imageNamed:@"slotVazio"];
+    _slot2.image = [UIImage imageNamed:@"slotVazio"];
 }
 
 - (void)didReceiveMemoryWarning {

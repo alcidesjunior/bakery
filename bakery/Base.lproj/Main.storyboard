@@ -255,11 +255,11 @@
             </objects>
             <point key="canvasLocation" x="-399" y="-404"/>
         </scene>
-        <!--Item-->
+        <!--Produto-->
         <scene sceneID="HL7-Oh-b47">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uy8-r4-pHr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="u8E-0N-FVN"/>
+                    <tabBarItem key="tabBarItem" title="Produto" image="iconPao" id="u8E-0N-FVN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZWX-W6-xbT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -274,11 +274,11 @@
             </objects>
             <point key="canvasLocation" x="631" y="-135"/>
         </scene>
-        <!--Item-->
+        <!--Estoque-->
         <scene sceneID="B7V-mS-HJn">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ydc-wF-sTf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="oz6-Je-bqx"/>
+                    <tabBarItem key="tabBarItem" title="Estoque" image="iconEstoque" id="oz6-Je-bqx"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I8q-gl-SWr">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
